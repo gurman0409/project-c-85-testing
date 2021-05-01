@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+body{
+    background-size: cover;
+	background-image: url("racing.gif");
+    background-position: center;
+}
+h1,h4
+{
+	color: white !important;
+}
+
+#carCanvas
+{
+	background-color: white; 
+    border-width:10px;
+	border-style:ridge;
+}
+
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car racing</title>
+</head>
+<body onload="img_come();">
+    <center>
+    <h1>Car Racing</h1>
+    <h1>Game Status :</h1>
+    <canvas id="carCanvas" width="800" height="550"></canvas>
+    <h4><b>NOTE : </b> IF CARS ARE NOT VISIABLE PRESS ANY ARROW KEY</h4>
+    <h4><b>NOTE : </b> TO MOVE WHITE CAR PRESS UP AND DOWN KEY</h4>
+    <h4><b>NOTE : </b> TO MOVE BLUE CAR PRESS RIGHT AND LEFT KEY</h4>
+          
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
